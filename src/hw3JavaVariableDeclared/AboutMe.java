@@ -37,7 +37,7 @@ public class AboutMe {
         // Step 8: Instantiate AboutMe class inside the main method body. 
         // Step 10: Follow indentation by Organizing the code.
         AboutMe myInfo = new AboutMe();
-        myInfo.aboutMe(); //
+        myInfo.aboutMe(); // Test
         
     }
 }
