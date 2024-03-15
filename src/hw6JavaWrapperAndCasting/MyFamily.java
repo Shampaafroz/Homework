@@ -1,17 +1,17 @@
-package hw5JavaMethods;
+package hw6JavaWrapperAndCasting;
 
 public class MyFamily {
 	
-	//initializing some int type variables
+	//initializing int, float, double type variables
 
-	public int child1Age = 19;
+	public float child1Age = 9.5f;
 	public int chil2dAge = 18;
-	protected int child3Age = 15;
+	protected double child3Age = 15.5;
 	int child4Age = 9; 
 	 
 	//Implemented a return type method below-
 	public int myFamily() {
-	 int sum = child1Age + chil2dAge + child3Age + child4Age;
+	 int sum = (int)(child1Age + chil2dAge + child3Age + child4Age);
 	 System.out.println("The sum of my childrens age is:" + sum);
 	 return sum;
 	 		
