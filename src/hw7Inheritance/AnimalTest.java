@@ -6,49 +6,59 @@ public class AnimalTest {
 	
 		Animal animal = new Animal();
 		animal.animalInfo();
+		System.out.println("\n------------------------------------");
 		// dog > bulldog > mammal > animal 
-		//mammal parent class
+		// Mammal extent to animal
 		Mammal mammal = new Mammal();
 		mammal.mammallInfo();
 		mammal.animalInfo();
+		System.out.println("\n------------------------------------");
 		
 		// BullDog child class
 		BullDog bullDog = new BullDog();
 		bullDog.bullDogInfo();
 		bullDog.mammallInfo();
-		mammal.animalInfo();
-
+		bullDog.animalInfo();
+		System.out.println("\n------------------------------------");
+		
 		Dog dog = new Dog();
 		dog.dogInfo();
 		dog.bullDogInfo();
-		bullDog.mammallInfo();
-		mammal.animalInfo();
+		dog.mammallInfo();
+		dog.animalInfo();
+		System.out.println("\n------------------------------------");
 		
 		//Cobra > snake > reptile > Animal
+		// Reptile extent to animal
 		Reptile reptile = new Reptile();
 		reptile.reptileInfo();
 		reptile.animalInfo();
+		System.out.println("\n------------------------------------");
 		
 		Snake snake = new Snake();
 		snake.snakeInfo();
 		snake.reptileInfo();
-		reptile.animalInfo();
+		snake.animalInfo();
+		System.out.println("\n------------------------------------");
 		
 		Cobra cobra = new Cobra();
 		cobra.cobra();
 		cobra.snakeInfo();
-		snake.reptileInfo();
-		reptile.animalInfo();
+		cobra.reptileInfo();
+		cobra.animalInfo();
+		System.out.println("\n------------------------------------");
 		
 		// robin > birds > animal
+		// birds extent to animal
 		Birds birds = new Birds();
 		birds.birdsInfo();
 		birds.animalInfo();
+		System.out.println("\n------------------------------------");
 		
 		Robin robin = new Robin();
 		robin.robinInfo();
 		robin.birdsInfo();
-		birds.animalInfo();
+		robin.animalInfo();
 		
 		
 		
