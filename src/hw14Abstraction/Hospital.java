@@ -8,13 +8,12 @@ public interface Hospital {
 	public void surgeryRoom();
 
 	public void cafeteria();
-	
-	
+
 	// Default method implemented below (This default is not access modifier)
-		public default void morgue() {
-		}
-		
-		// Static method implemented below
-		public static void pharmacy() {	
-		}
+	public default void morgue() {
+	}
+
+	// Static method implemented below
+	public static void pharmacy() {
+	}
 }

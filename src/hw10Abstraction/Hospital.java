@@ -11,10 +11,10 @@ public interface Hospital {
 	
 	
 	// Default method implemented below (This default is not access modifier)
-		public default void morge() {
+		public default void morgue() {
 		}
 		
 		// Static method implemented below
-		public static void phermecy() {	
+		public static void pharmacy() {	
 		}
 }
